@@ -9,7 +9,7 @@ body{
 .main-login{
     width: 100vw;
     height: 100vh;
-    background-image: url("background-login.jpg");
+    background-image: url("img tela de login/background-login.jpg");
     background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat no-repeat;
@@ -32,6 +32,10 @@ body{
     text-align: center;
 }
 
+.left-login>h1>img{
+    width: 2vw;
+}
+
 .left-login-image{
     width: 25vw;
     margin: 0px;
@@ -48,12 +52,12 @@ body{
 }
 
 .card-login{
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 35px;
+    padding: 70px 35px;
     background: #2f2841;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
@@ -112,16 +116,23 @@ body{
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 1024px){
     .card-login{
-        width: 85%;
+        width: 60%;
     }
+    .main-login{
+        background: linear-gradient(to bottom, #201b2c, #3b3350, #915e1b);
+    }
+    .left-login > h1{
+        color: #00ff88;
+    }
+    
 }
 
 @media only screen and (max-width: 600px){
     .main-login{
         flex-direction: column;
-        background: #201b2c;
+        background: linear-gradient(to bottom, #201b2c, #8473ad, #0a7ad6);
     }
     .left-login > h1{
         display: none;
