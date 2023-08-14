@@ -1,0 +1,12 @@
+body{
+    background-image: url("image/bg2-home.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+}
+
+@media only screen and (min-width: 992px){
+    .navImg{
+        opacity: 0;
+    }
+}
