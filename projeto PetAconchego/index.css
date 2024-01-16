@@ -9,7 +9,7 @@ body{
 .main-login{
     width: 100vw;
     height: 100vh;
-    background-image: url("image login/background-login.jpg");
+    background-image: url("/image login/background-login.jpg");
     background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat no-repeat;
@@ -127,6 +127,9 @@ body{
         color: #00ff88;
     }
     
+    p{
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 600px){
