@@ -1,5 +1,0 @@
-cor roxa
-#3c1781
-
-cor roxa para letra
-#4e2096
